@@ -1,0 +1,14 @@
+Filtro1:
+- Realizar o filtro por nome de cliente - Ex: Cliente1
+
+Filtro2:
+- Realizar o filtro por tipo de arquivo - Ex: Calls ou Metrics
+
+Filtro3:
+- Realizar o filtro por data solicitada - Ex: 2022_11_01
+
+Filtro4:
+- Ao informar o nome de um cliente, excluir todos os arquivos dele
+
+Filtro5:
+- Trazer todos os arquivos que possuam mais de 20 dias filtrando por nomedocliente.
