@@ -34,7 +34,7 @@ Para a instalação do ambiente na amazon utilizando o recurso é preciso:
 		- Clique no instance ID da instancia criada e no campo Public IPv4 address copie o IP da sua instancia.
 Com o IP e a chave pública será possível acessar a instancia LINUX UBUNTU por SSH!
 
-======================================================================================================================
+===================================================================================================
 
 Criando o servidor NGINX:
 
