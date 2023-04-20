@@ -41,6 +41,7 @@ Criando o servidor NGINX:
 	Após acessar o ssh da instancia EC2 LINUX UBUNTU, altere para o usuário root com o comando sudo su -
 - Como root utilize novamente o wget para fazer o download do script de instalação do NGINX com o comando:
 		- wget https://cloudengineer-ecommerce.s3.amazonaws.com/challenge-sre-install_nginx.sh
+		
 		Altere as permissões do arquivo com o comando chmod +x challenge-sre-install_nginx.sh
 		Agora execute o script com o comando ./challenge-sre-install_nginx.sh
 		..
