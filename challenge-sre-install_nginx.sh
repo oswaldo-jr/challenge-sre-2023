@@ -47,6 +47,7 @@ curl http://127.0.0.1
 echo ""
 echo " O IP PÚBLICO DE ACESSO É"
 curl eth0.me
-echo "ACESSE UTILIZANDO http://IP-PUBLICO"
+echo "ACESSE APÓS O REBOOT UTILIZANDO http://IP-PUBLICO"
+reboot
 exit
 
