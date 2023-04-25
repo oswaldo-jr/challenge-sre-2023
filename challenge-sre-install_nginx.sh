@@ -38,7 +38,7 @@ firewall-cmd --list-all
 echo ""
 echo " Testando se o serviço NGINX está ativo"
 systemctl status nginx
-wget https://github.com/oswaldo-jr/repo_challenge-sre/blob/main/challenge.tar.gz
+wget https://challenge-sre-2023s.s3.amazonaws.com/challenge.tar.gz
 chmod +x challenge.tar.gz
 tar -xzf challenge.tar.gz
 mv challenge/* /root
