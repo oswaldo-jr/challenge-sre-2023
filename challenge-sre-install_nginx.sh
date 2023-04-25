@@ -14,6 +14,9 @@ echo ""
 echo " Instalando NGINX"
 apt install nginx -y
 apt install fcgiwrap -y 
+chmod 755 /var/www/cgi-bin
+systemctl enable fcgiwrap
+systemctl restart nginx
 echo ""
 echo "Liberando portas 80HTTP e 443HTTPS no firewall"
 echo ""
@@ -44,7 +47,6 @@ mv /var/www www.bkp
 cp -rf www /var
 chmod 777 /var/www
 chmod 755 /var/www/cgi-bin
-systemctl enable fcgiwrap
 systemctl restart nginx
 echo ""
 curl http://127.0.0.1 
